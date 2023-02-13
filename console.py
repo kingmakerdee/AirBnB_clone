@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import cmd
 
+
 class HBNBCommand(cmd.Cmd):
     """Command intepreter which inherits from base class cmd"""
     prompt = '(hbnb) '
@@ -17,6 +18,7 @@ class HBNBCommand(cmd.Cmd):
         """Called when empty line + ENTER key,
         returns newline and does not execute any commands"""
         pass
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
